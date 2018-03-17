@@ -1,0 +1,107 @@
+body {
+   background-color: black;
+   color: white;
+   padding: 0px;
+   margin:0px;
+   border:0px;
+}
+
+.menu-button{
+   display: none;
+   position:fixed;
+   left:10px;
+}
+
+.header{
+   background-color: grey;
+   display: block;
+   border:0px;
+   padding-bottom:10px;
+   width:1080px;
+   background:linear-gradient(270deg,darkgrey, black);
+}
+
+h1{
+   padding-top:15px;
+   padding-bottom:0px;
+   margin-bottom:0px;
+   margin-left:50px;
+   color: #7E1D35;
+   text-shadow: -1px 1px 2px #020F92;
+}
+
+.title-description{
+   margin-top:0px;
+   margin-bottom:10px;
+   margin-left:70px;
+   padding-top:0px;
+   padding-bottom:10px;
+   font-size: 0.7em;
+   color: #7E1D35;
+}
+
+.contents{
+   display: inline-block;
+   width: 500px;
+   vertical-align:top
+}
+
+.title{
+   margin-bottom:10px;
+}
+
+.sentence{
+   display: inline-block;
+   text-align: left;
+   margin-top: 0px;
+   line-height: 1.25em;
+   font-size: 120%;
+   word-wrap: break-word;
+}
+
+.menu{
+   width:250px;
+   display:inline-block;
+   left:5px;
+   top:5px;
+   text-align: left;
+   margin-top: 15px;
+   padding:5px;
+   color:grey;
+}
+
+.menu-time, .menu-sound, .menu-search {
+   margin-top:2px;
+}
+
+.input{
+   left:30px;
+   position:relative;
+   margin-bottom:5px;
+   background-color:#D8D8D8;
+}
+
+@media screen and (max-width: 600px){
+   .header{
+      width:100%;
+   }
+   .contents{
+      padding-left:25px;
+   }
+}
+
+@media screen and (max-width: 780px){
+   .menu{
+      display: none;
+   }
+   .menu-bottun{
+      display: inline;
+      background-color: white;
+      border: 8px;
+      border-color:#554545;
+      border-style: solid;
+      padding:5px;
+      width:40px;
+      height:40px;
+   }
+}
