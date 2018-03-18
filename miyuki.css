@@ -41,7 +41,10 @@ h1{
 }
 
 .title{
-   margin-bottom:10px;
+   font-size:1.5em;
+   margin-top:1.5em;
+   margin-bottom:1em;
+   margin-left:1em;
 }
 
 .sentence{
@@ -54,7 +57,6 @@ h1{
 }
 
 .menu-button{
-   display: none;
    position:fixed;
    right:30px;
    background-color: grey;
@@ -95,10 +97,9 @@ h1{
 
 @media screen and (max-width: 600px){
    .header{
-/*      width:100%;
-*/
    }
    .contents{
+      width:auto;
    }
 }
 
