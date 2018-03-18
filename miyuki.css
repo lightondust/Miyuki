@@ -6,18 +6,11 @@ body {
    border:0px;
 }
 
-.menu-button{
-   display: none;
-   position:fixed;
-   left:10px;
-}
-
 .header{
    background-color: grey;
    display: block;
    border:0px;
    padding-bottom:10px;
-   width:1080px;
    background:linear-gradient(270deg,darkgrey, black);
 }
 
@@ -43,7 +36,8 @@ h1{
 .contents{
    display: inline-block;
    width: 500px;
-   vertical-align:top
+   vertical-align:top;
+   padding-left:25px;
 }
 
 .title{
@@ -57,6 +51,24 @@ h1{
    line-height: 1.25em;
    font-size: 120%;
    word-wrap: break-word;
+}
+
+.menu-button{
+   display: none;
+   position:fixed;
+   right:30px;
+   background-color: grey;
+   border: 8px;
+   border-color:white;
+   border-style: solid;
+   padding:5px;
+   width:40px;
+   height:40px;
+   opacity:0.7;
+ }
+
+.menu-button:hover{
+   opacity:1; 
 }
 
 .menu{
@@ -83,10 +95,10 @@ h1{
 
 @media screen and (max-width: 600px){
    .header{
-      width:100%;
+/*      width:100%;
+*/
    }
    .contents{
-      padding-left:25px;
    }
 }
 
@@ -94,14 +106,7 @@ h1{
    .menu{
       display: none;
    }
-   .menu-bottun{
+   .menu-button{
       display: inline;
-      background-color: white;
-      border: 8px;
-      border-color:#554545;
-      border-style: solid;
-      padding:5px;
-      width:40px;
-      height:40px;
-   }
+  }
 }
