@@ -3,6 +3,7 @@ body {
    color: white;
    padding: 0px;
    margin:0px;
+   max-width: 1024px;
    border:0px;
 }
 
@@ -95,6 +96,7 @@ h1{
    background-color:#D8D8D8;
 }
 
+/* タブレットの場合 */
 @media screen and (max-width: 600px){
    .header{
    }
