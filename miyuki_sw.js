@@ -1,4 +1,4 @@
-var CACHE_NAME = 'miyuki_180404v1';
+var CACHE_NAME = 'miyuki_base_180404v1';
 var urlsToCache = [ 
 	'/miyuki/miyuki.html', 
 	'/miyuki/img/logo.png', 
@@ -29,7 +29,7 @@ self.addEventListener('activate', function(event) {
 	);
 });
 
-var dataCacheName = 'stock_171219v1';
+var dataCacheName = 'miyuk_dynamic_180404v1';
 
 self.addEventListener('fetch', function(event) {
 	console.log(event);

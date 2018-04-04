@@ -1,5 +1,5 @@
 GLOBAL = {
-	SERVICEWORKER: "/js/sw.js",
+	SERVICEWORKER: "/miyuki/miyuki_sw.js",
 	USINGSERVICEWORKER: true,
 	SERVICEWORKERSCOPE: "/miyuki/"
 }
