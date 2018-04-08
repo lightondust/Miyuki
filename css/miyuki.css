@@ -36,7 +36,7 @@ h1{
 
 .contents{
    display: inline-block;
-   width: 500px;
+   max-width: 750px;
    vertical-align:top;
    padding-left:25px;
 }
@@ -85,6 +85,10 @@ h1{
    color:grey;
 }
 
+.menu-year ul{
+   max-height: 500px;
+   overflow: auto;
+}
 .menu-time, .menu-sound, .menu-search {
    margin-top:2px;
 }
