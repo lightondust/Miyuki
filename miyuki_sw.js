@@ -1,8 +1,8 @@
 var CACHE_NAME = 'miyuki_base_180404v1';
 var urlsToCache = [ 
 	'/miyuki/miyuki.html', 
-	'/miyuki/img/logo.png', 
-	'/stock/js/stock.js' ];
+	'/miyuki/css/miyuki.css', 
+	'/miyuki/js/miyuki.js' ];
 
 self.addEventListener('install', function(event) {
 	// インストール処理
