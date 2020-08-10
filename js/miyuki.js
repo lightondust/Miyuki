@@ -101,6 +101,7 @@ function insertSong(key_id){
 	var title = song.title;
 	var word = song.word;
 	var cont = true;
+	let songElement = document.getElementById('song_title');
 	while(cont){
 		if(word.startsWith("\n")){
 			word = word.slice(1);
@@ -111,6 +112,7 @@ function insertSong(key_id){
 	word = word.replace(/\n/g, "<br />");
 	document.getElementById("song_title").innerHTML = title;
 	document.getElementById("song_body").innerHTML = word;
+	window.scrollTo(0, songElement.offsetTop);
 }
 
 /*
